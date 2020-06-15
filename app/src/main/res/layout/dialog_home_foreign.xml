@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dialog_txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transfer Money"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:fontFamily="@font/source_sans_pro_reguler"
+            android:textSize="24sp"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"/>
+        <EditText
+            android:id="@+id/dialog_input2"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:layout_below="@+id/dialog_txt2"
+            android:fontFamily="@font/source_sans_pro_reguler"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:hint="Input"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textColorHighlight="@android:color/white"/>
+        <androidx.cardview.widget.CardView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/dialog_button_2"
+            android:layout_below="@+id/dialog_input2"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="10dp">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="OK"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="30sp"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

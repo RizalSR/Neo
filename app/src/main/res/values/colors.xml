@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#003087</color>
+    <color name="colorPrimaryDark">#009CDE</color>
+    <color name="colorAccent">#F7B600</color>
+    <color name="background">#F6F7F8</color>
+    <color name="version">#5D5D5D</color>
+    // Bottom Bar
+    <color name="colorBottomBar">#FAFAFA</color>
+    <color name="colorNotification">#EA4855</color>
+    <color name="colorDivider">#E6E6E6</color>
+    //logout
+    <color name="logout">#c9160a</color>
+</resources>

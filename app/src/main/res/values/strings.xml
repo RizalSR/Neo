@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Neo</string>
+    <string-array name="currency">
+        <item>USD</item>
+        <item>IDR</item>
+        <item>HKD</item>
+        <item>EUR</item>
+        <item>JPY</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Man</item>
+        <item>Woman</item>
+    </string-array>
+</resources>
